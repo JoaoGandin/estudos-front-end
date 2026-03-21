@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+        <!-- 
+        Precedência de execução
+         se o JS for colocado antes do elemento que queremos fazer alguma ação, esse elemento não vai ser renderizado e o JS não irá encontrar o elemento solicitado. Resultando em um erro no console "Cannot set properties of null", ou seja, você está tentando editar algo que não existe
+         -->
+        <!-- <script src="script.js"></script> -->
+    </head>
+    <body>
+        <h1>Curso de JavaScript</h1>
+        <input type="text" placeholder="Teste de precedência" id="nome" disabled="disabled">
+        <!-- Então deixe o script do js antes do fechamento da tag body -->
+        <script src="script.js"></script>
+    </body>
+</html>
