@@ -1,10 +1,6 @@
-alert("aasngvmksjangjk")
-document.getElementById("nome").value = "Joao"
-
-//comentario de uma linha.
+// alert("Teste")
 /*
-    Comentário de múltiplas linhas.
-    Esse tipo de comentário permite
-    que várias linhas sejam encapsuladas
-    em um mesmo comentário.
+    Selecionar um elemento no DOM
+    atualizar o valor desse elemento com uma String.
 */
+document.getElementById("nome").value = "Joao"
